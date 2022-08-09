@@ -1,9 +1,15 @@
-<script setup>
-import 'flowbite'
+<script>
+import Navbar from './components/Navbar.vue'
+export default {
+    components: {
+        Navbar
+    },
+}
 </script>
 
 <template>
 <div>
+  <Navbar />
   <router-view/>
 </div>
 

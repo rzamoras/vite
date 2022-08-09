@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="mt-20">
         <h1>About</h1>
     </div>
 </template>

@@ -1,6 +1,5 @@
 <template>
     <div>
-        <Navbar />
         <div class="mx-auto max-w-lg">
             <div role="status" class="my-7 animate-pulse">
                 <div class="h-2.5 bg-gray-300 rounded-full dark:bg-gray-700 w-48 mb-4"></div>
@@ -60,12 +59,7 @@
 </template>
 
 <script>
-import Navbar from '../components/Navbar.vue'
-export default {
-    components: {
-        Navbar
-    },
-}
+
 </script>
 
 <style>
