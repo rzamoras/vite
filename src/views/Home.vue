@@ -131,8 +131,8 @@
                         </div>
                         <div class="card-footer bg-transparent py-4 px-5">
                             <div class="row border-bottom">
-                                <div class="col-6 py-1 text-right border-right"><strong>Age of Kids</strong></div>
-                                <div class="col-6 py-1">3 - 6 Years</div>
+                                <div class="col-6 py-1 text-right border-right"><strong>Pre-requisite</strong></div>
+                                <div class="col-6 py-1">Sex-ed 1</div>
                             </div>
                             <div class="row border-bottom">
                                 <div class="col-6 py-1 text-right border-right"><strong>Total Seats</strong></div>
@@ -159,8 +159,8 @@
                         </div>
                         <div class="card-footer bg-transparent py-4 px-5">
                             <div class="row border-bottom">
-                                <div class="col-6 py-1 text-right border-right"><strong>Age of Kids</strong></div>
-                                <div class="col-6 py-1">3 - 6 Years</div>
+                                <div class="col-6 py-1 text-right border-right"><strong>Pre-requisite</strong></div>
+                                <div class="col-6 py-1">Carnival Corp</div>
                             </div>
                             <div class="row border-bottom">
                                 <div class="col-6 py-1 text-right border-right"><strong>Total Seats</strong></div>
@@ -187,8 +187,8 @@
                         </div>
                         <div class="card-footer bg-transparent py-4 px-5">
                             <div class="row border-bottom">
-                                <div class="col-6 py-1 text-right border-right"><strong>Age of Kids</strong></div>
-                                <div class="col-6 py-1">3 - 6 Years</div>
+                                <div class="col-6 py-1 text-right border-right"><strong>Pre-requisite</strong></div>
+                                <div class="col-6 py-1">None</div>
                             </div>
                             <div class="row border-bottom">
                                 <div class="col-6 py-1 text-right border-right"><strong>Total Seats</strong></div>
