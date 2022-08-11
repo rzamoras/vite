@@ -13,11 +13,11 @@
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav /src/assets/img/-weight-bold mx-auto py-0">
                     <router-link to="/" class="nav-item nav-link active">Home</router-link>
-                    <router-link to="about" class="nav-item nav-link">About</router-link>
-                    <router-link to="class" class="nav-item nav-link">Classes</router-link>
-                    <router-link to="team" class="nav-item nav-link">Teachers</router-link>
-                    <router-link to="gallery" class="nav-item nav-link">Gallery</router-link>
-                    <router-link to="blogs" class="nav-item nav-link">Blogs</router-link>
+                    <router-link to="/about" class="nav-item nav-link">About</router-link>
+                    <router-link to="/class" class="nav-item nav-link">Classes</router-link>
+                    <router-link to="/team" class="nav-item nav-link">Teachers</router-link>
+                    <router-link to="/gallery" class="nav-item nav-link">Gallery</router-link>
+                    <router-link to="/blogs" class="nav-item nav-link">Blogs</router-link>
                     <!-- <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu rounded-0 m-0">
@@ -25,7 +25,7 @@
                             <a href="single.html" class="dropdown-item">Blog Detail</a>
                         </div>
                     </div> -->
-                    <router-link to="contact" class="nav-item nav-link">Contact</router-link>
+                    <router-link to="/contact" class="nav-item nav-link">Contact</router-link>
                 </div>
                 <a href="" class="btn btn-primary px-4">Join Class</a>
             </div>
