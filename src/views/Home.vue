@@ -1,18 +1,16 @@
 <template>
 <div>
     <!-- Header Start -->
-    <div class="container-fluid bg-primary px-0 px-md-5 mb-5">
+    <div class="container-fluid bg-indigo-700 px-0 px-md-5 mb-5">
         <div class="row align-items-center px-3">
             <div class="col-lg-6 text-center text-lg-left">
-                <h4 class="text-white mb-4 mt-5 mt-lg-0">Kids Learning Center</h4>
-                <h1 class="display-3 font-weight-bold text-white">New Approach to Kids Education</h1>
-                <p class="text-white mb-4">Sea ipsum kasd eirmod kasd magna, est sea et diam ipsum est amet sed sit.
-                    Ipsum dolor no justo dolor et, lorem ut dolor erat dolore sed ipsum at ipsum nonumy amet. Clita
-                    lorem dolore sed stet et est justo dolore.</p>
+                <h4 class="text-white mb-4 mt-5 mt-lg-0">Top Course</h4>
+                <h1 class="display-3 font-weight-bold text-white">New Approach to Modern Education</h1>
+                <p class="text-white mb-4">The new approach to modern education is one that emphasizes the use of technology, project-based learning, and hands-on learning.</p>
                 <a href="" class="btn btn-secondary mt-1 py-3 px-5">Learn More</a>
             </div>
-            <div class="col-lg-6 text-center text-lg-right">
-                <img class="img-fluid mt-5" src="/src/assets/img/header.png" alt="">
+            <div class="col-lg-6 text-center text-lg-right rounded">
+                <img class="img-fluid mt-5" src="/src/assets/img/courses/ba_graphicdesign.png" alt="">
             </div>
         </div>
     </div>
@@ -88,23 +86,23 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-5">
-                    <img class="img-fluid rounded mb-5 mb-lg-0" src="/src/assets/img/about-1.jpg" alt="">
+                    <img class="img-fluid rounded mb-5 mb-lg-0" src="/src/assets/img/courses/bs_com-eng.jpg" alt="">
                 </div>
                 <div class="col-lg-7">
                     <p class="section-title pr-5"><span class="pr-2">Learn About Us</span></p>
-                    <h1 class="mb-4">Best School For Your Kids</h1>
-                    <p>Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos,
-                        ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est
-                        dolor</p>
+                    <h1 class="mb-4">Best School For Your Future</h1>
+                    <p>
+                        It is important to know that there is not one perfect school for everyone. Different schools provide different opportunities and cater to different needs. It’s a good idea to do research on a variety of schools before deciding which one is best for you.
+                    </p>
                     <div class="row pt-2 pb-4">
                         <div class="col-6 col-md-4">
-                            <img class="img-fluid rounded" src="/src/assets/img/about-2.jpg" alt="">
+                            <img class="img-fluid rounded bg-cover" src="/src/assets/img/courses/pc-washing.webp" alt="">
                         </div>
                         <div class="col-6 col-md-8">
                             <ul class="list-inline m-0">
-                                <li class="py-2 border-top border-bottom"><i class="fa fa-check text-primary mr-3"></i>Labore eos amet dolor amet diam</li>
-                                <li class="py-2 border-bottom"><i class="fa fa-check text-primary mr-3"></i>Etsea et sit dolor amet ipsum</li>
-                                <li class="py-2 border-bottom"><i class="fa fa-check text-primary mr-3"></i>Diam dolor diam elitripsum vero.</li>
+                                <li class="py-2 border-top border-bottom"><i class="fa fa-check text-primary mr-3"></i>Cloud computing.</li>
+                                <li class="py-2 border-bottom"><i class="fa fa-check text-primary mr-3"></i>Network and information security.</li>
+                                <li class="py-2 border-bottom"><i class="fa fa-check text-primary mr-3"></i>Mobile engineering.</li>
                             </ul>
                         </div>
                     </div>
@@ -121,15 +119,15 @@
         <div class="container">
             <div class="text-center pb-2">
                 <p class="section-title px-5"><span class="px-2">Popular Classes</span></p>
-                <h1 class="mb-4">Classes for Your Kids</h1>
+                <h1 class="mb-4">Classes for Your Future</h1>
             </div>
             <div class="row">
                 <div class="col-lg-4 mb-5">
                     <div class="card border-0 bg-light shadow-sm pb-2">
-                        <img class="card-img-top mb-2" src="/src/assets/img/class-1.jpg" alt="">
+                        <img class="card-img-top mb-2 h-[]" src="/src/assets/img/courses/bs_nursing.png" alt="">
                         <div class="card-body text-center">
-                            <h4 class="card-title">Drawing Class</h4>
-                            <p class="card-text">Justo ea diam stet diam ipsum no sit, ipsum vero et et diam ipsum duo et no et, ipsum ipsum erat duo amet clita duo</p>
+                            <h4 class="card-title">Health Assessment Class</h4>
+                            <p class="card-text">The Bachelor of Science in Nursing consists of general education, major and professional nursing courses.</p>
                         </div>
                         <div class="card-footer bg-transparent py-4 px-5">
                             <div class="row border-bottom">
@@ -146,7 +144,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-6 py-1 text-right border-right"><strong>Tution Fee</strong></div>
-                                <div class="col-6 py-1">$290 / Month</div>
+                                <div class="col-6 py-1">₱290 / Month</div>
                             </div>
                         </div>
                         <a href="" class="btn btn-primary px-4 mx-auto mb-4">Join Now</a>
@@ -154,10 +152,10 @@
                 </div>
                 <div class="col-lg-4 mb-5">
                     <div class="card border-0 bg-light shadow-sm pb-2">
-                        <img class="card-img-top mb-2" src="/src/assets/img/class-2.jpg" alt="">
+                        <img class="card-img-top mb-2" src="/src/assets/img/courses/rotc-scout.jpg" alt="">
                         <div class="card-body text-center">
-                            <h4 class="card-title">Language Learning</h4>
-                            <p class="card-text">Justo ea diam stet diam ipsum no sit, ipsum vero et et diam ipsum duo et no et, ipsum ipsum erat duo amet clita duo</p>
+                            <h4 class="card-title">The Training Corps</h4>
+                            <p class="card-text">Only the top ten graduates can apply to the Military Police Brigade.</p>
                         </div>
                         <div class="card-footer bg-transparent py-4 px-5">
                             <div class="row border-bottom">
@@ -174,7 +172,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-6 py-1 text-right border-right"><strong>Tution Fee</strong></div>
-                                <div class="col-6 py-1">$290 / Month</div>
+                                <div class="col-6 py-1">₱290 / Month</div>
                             </div>
                         </div>
                         <a href="" class="btn btn-primary px-4 mx-auto mb-4">Join Now</a>
@@ -182,10 +180,10 @@
                 </div>
                 <div class="col-lg-4 mb-5">
                     <div class="card border-0 bg-light shadow-sm pb-2">
-                        <img class="card-img-top mb-2" src="/src/assets/img/class-3.jpg" alt="">
+                        <img class="card-img-top mb-2" src="/src/assets/img/courses/sex-ed.png" alt="">
                         <div class="card-body text-center">
-                            <h4 class="card-title">Basic Science</h4>
-                            <p class="card-text">Justo ea diam stet diam ipsum no sit, ipsum vero et et diam ipsum duo et no et, ipsum ipsum erat duo amet clita duo</p>
+                            <h4 class="card-title">Basic Practice</h4>
+                            <p class="card-text">Helps people gain the skills that are needed to navigate relationships with self,</p>
                         </div>
                         <div class="card-footer bg-transparent py-4 px-5">
                             <div class="row border-bottom">
@@ -202,7 +200,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-6 py-1 text-right border-right"><strong>Tution Fee</strong></div>
-                                <div class="col-6 py-1">$290 / Month</div>
+                                <div class="col-6 py-1">₱290 / Month</div>
                             </div>
                         </div>
                         <a href="" class="btn btn-primary px-4 mx-auto mb-4">Join Now</a>
@@ -220,16 +218,14 @@
             <div class="row align-items-center">
                 <div class="col-lg-7 mb-5 mb-lg-0">
                     <p class="section-title pr-5"><span class="pr-2">Book A Seat</span></p>
-                    <h1 class="mb-4">Book A Seat For Your Kid</h1>
-                    <p>Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos,
-                        ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est
-                        dolor</p>
+                    <h1 class="mb-4">Book A Seat For Your Self</h1>
+                    <p>International State College of the Philippines is one of the most prestigious colleges that exist in the universe.</p>
                     <ul class="list-inline m-0">
-                        <li class="py-2"><i class="fa fa-check text-success mr-3"></i>Labore eos amet dolor amet diam</li>
-                        <li class="py-2"><i class="fa fa-check text-success mr-3"></i>Etsea et sit dolor amet ipsum</li>
-                        <li class="py-2"><i class="fa fa-check text-success mr-3"></i>Diam dolor diam elitripsum vero.</li>
+                        <li class="py-2"><i class="fa fa-check text-success mr-3"></i>Open access to postsecondary education.</li>
+                        <li class="py-2"><i class="fa fa-check text-success mr-3"></i>Workforce development and skills training.</li>
+                        <li class="py-2"><i class="fa fa-check text-success mr-3"></i>Quality Education.</li>
                     </ul>
-                    <a href="" class="btn btn-primary mt-4 py-2 px-4">Book Now</a>
+                    <a href="" class="btn btn-primary mt-4 py-2 px-4">Enroll Now</a>
                 </div>
                 <div class="col-lg-5">
                     <div class="card border-0">
@@ -269,13 +265,13 @@
     <div class="container-fluid pt-5">
         <div class="container">
             <div class="text-center pb-2">
-                <p class="section-title px-5"><span class="px-2">Our Teachers</span></p>
+                <p class="section-title px-5"><span class="px-2">Our Professor</span></p>
                 <h1 class="mb-4">Meet Our Teachers</h1>
             </div>
             <div class="row">
                 <div class="col-md-6 col-lg-3 text-center team mb-5">
                     <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%;">
-                        <img class="img-fluid w-100" src="/src/assets/img/team-1.jpg" alt="" >
+                        <img class="img-fluid w-100" src="/src/assets/img/teams/prof_kim.png" alt="" >
                         <div
                             class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
                             <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
@@ -286,12 +282,12 @@
                                 href="#"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
-                    <h4>Julia Smith</h4>
-                    <i>Music Teacher</i>
+                    <h4>Prof. Kim Atienza</h4>
+                    <i>College of Education</i>
                 </div>
                 <div class="col-md-6 col-lg-3 text-center team mb-5">
                     <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%;">
-                        <img class="img-fluid w-100" src="/src/assets/img/team-2.jpg" alt="" >
+                        <img class="img-fluid w-100" src="/src/assets/img/teams/prof_didjay.png" alt="" >
                         <div
                             class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
                             <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
@@ -302,12 +298,12 @@
                                 href="#"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
-                    <h4>Jhon Doe</h4>
-                    <i>Language Teacher</i>
+                    <h4>Prof. Didjay vidjay</h4>
+                    <i>Business Administration</i>
                 </div>
                 <div class="col-md-6 col-lg-3 text-center team mb-5">
                     <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%;">
-                        <img class="img-fluid w-100" src="/src/assets/img/team-3.jpg" alt="" >
+                        <img class="img-fluid w-100" src="/src/assets/img/teams/prof_gabriela.png" alt="" >
                         <div
                             class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
                             <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
@@ -318,12 +314,12 @@
                                 href="#"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
-                    <h4>Mollie Ross</h4>
-                    <i>Dance Teacher</i>
+                    <h4>Prof. Gabriela Annjane Umali Cruz</h4>
+                    <i>Philippine History</i>
                 </div>
                 <div class="col-md-6 col-lg-3 text-center team mb-5">
                     <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%;">
-                        <img class="img-fluid w-100" src="/src/assets/img/team-4.jpg" alt="" >
+                        <img class="img-fluid w-100" src="/src/assets/img/teams/dean_fine-arts.png" alt="" >
                         <div
                             class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
                             <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
@@ -334,8 +330,8 @@
                                 href="#"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
-                    <h4>Donald John</h4>
-                    <i>Art Teacher</i>
+                    <h4>Prof. Ricahrd Gomez</h4>
+                    <i>Fine Arts</i>
                 </div>
             </div>
         </div>
@@ -344,7 +340,7 @@
 
 
     <!-- Testimonial Start -->
-    <div class="container-fluid py-5">
+    <!-- <div class="container-fluid py-5">
         <div class="container p-0">
             <div class="text-center pb-2">
                 <p class="section-title px-5"><span class="px-2">Testimonial</span></p>
@@ -405,7 +401,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Testimonial End -->
 
 
