@@ -415,45 +415,45 @@
             <div class="row pb-3">
                 <div class="col-lg-4 mb-4">
                     <div class="card border-0 shadow-sm mb-2">
-                        <img class="card-img-top mb-2" src="/src/assets/img/blog-1.jpg" alt="">
+                        <img class="card-img-top mb-2" src="/src/assets/img/blogs/cable_car.jpg" alt="">
                         <div class="card-body bg-light text-center p-4">
-                            <h4 class="">Diam amet eos at no eos</h4>
+                            <h4 class="">We Now Offer Cable Car Transit</h4>
                             <div class="d-flex justify-content-center mb-3">
                                 <small class="mr-3"><i class="fa fa-user text-primary"></i> Admin</small>
                                 <small class="mr-3"><i class="fa fa-folder text-primary"></i> Web Design</small>
                                 <small class="mr-3"><i class="fa fa-comments text-primary"></i> 15</small>
                             </div>
-                            <p>Sed kasd sea sed at elitr sed ipsum justo, sit nonumy diam eirmod, duo et sed sit eirmod kasd clita tempor dolor stet lorem. Tempor ipsum justo amet stet...</p>
+                            <p>ISCPanians can now avail cable car transit all over NCR, for FREE. This is an initiative of the ISCP to reduce traffic in Metro Manila and to provide affordable transportation to students.</p>
                             <a href="" class="btn btn-primary px-4 mx-auto my-2">Read More</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 mb-4">
                     <div class="card border-0 shadow-sm mb-2">
-                        <img class="card-img-top mb-2" src="/src/assets/img/blog-2.jpg" alt="">
+                        <img class="card-img-top mb-2" src="/src/assets/img/blogs/find_campus.png" alt="">
                         <div class="card-body bg-light text-center p-4">
-                            <h4 class="">Diam amet eos at no eos</h4>
+                            <h4 class="">Find a campus near you!</h4>
                             <div class="d-flex justify-content-center mb-3">
                                 <small class="mr-3"><i class="fa fa-user text-primary"></i> Admin</small>
                                 <small class="mr-3"><i class="fa fa-folder text-primary"></i> Web Design</small>
                                 <small class="mr-3"><i class="fa fa-comments text-primary"></i> 15</small>
                             </div>
-                            <p>Sed kasd sea sed at elitr sed ipsum justo, sit nonumy diam eirmod, duo et sed sit eirmod kasd clita tempor dolor stet lorem. Tempor ipsum justo amet stet...</p>
+                            <p>Find a campus near you, or ride our highly advanced transport system. ISCP ensures all students get their education to the most inaccessible and inhospitable parts of the Philippines, the world, and the Solar System. Enroll with us today at the ISCP.</p>
                             <a href="" class="btn btn-primary px-4 mx-auto my-2">Read More</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 mb-4">
                     <div class="card border-0 shadow-sm mb-2">
-                        <img class="card-img-top mb-2" src="/src/assets/img/blog-3.jpg" alt="">
+                        <img class="card-img-top mb-2" src="/src/assets/img/blogs/mandatory_exercise.jpg" alt="">
                         <div class="card-body bg-light text-center p-4">
-                            <h4 class="">Diam amet eos at no eos</h4>
+                            <h4 class="">Mandatory Exercise Routine</h4>
                             <div class="d-flex justify-content-center mb-3">
                                 <small class="mr-3"><i class="fa fa-user text-primary"></i> Admin</small>
                                 <small class="mr-3"><i class="fa fa-folder text-primary"></i> Web Design</small>
                                 <small class="mr-3"><i class="fa fa-comments text-primary"></i> 15</small>
                             </div>
-                            <p>Sed kasd sea sed at elitr sed ipsum justo, sit nonumy diam eirmod, duo et sed sit eirmod kasd clita tempor dolor stet lorem. Tempor ipsum justo amet stet...</p>
+                            <p>The ISCP strongly encourages everyone to do the morning routine exercises to their respective classrooms. We believe that a healthy body means death and suffering as long as possible.</p>
                             <a href="" class="btn btn-primary px-4 mx-auto my-2">Read More</a>
                         </div>
                     </div>
@@ -471,9 +471,11 @@
 <script>
 import SsrCarousel from 'vue-ssr-carousel'
 import ssrCarouselCss from 'vue-ssr-carousel/index.css'
+import LinkPrevue from 'link-prevue'
 export default {
     components: {
-        'ssr-carousel': SsrCarousel
+        'ssr-carousel': SsrCarousel,
+        LinkPrevue
     }
 }
 
