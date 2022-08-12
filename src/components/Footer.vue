@@ -12,7 +12,7 @@
                     <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
                         style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
                     <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
-                        style="width: 38px; height: 38px;" href="#"><i class="fab fa-facebook-f"></i></a>
+                        style="width: 38px; height: 38px;" href="https://www.facebook.com/ISCPhilippines" target="_blank"><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
                         style="width: 38px; height: 38px;" href="#"><i class="fab fa-linkedin-in"></i></a>
                     <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
@@ -25,14 +25,14 @@
                     <h4 class="fa fa-map-marker-alt text-primary"></h4>
                     <div class="pl-3">
                         <h5 class="text-white">Address</h5>
-                        <p>123 Street, New York, USA</p>
+                        <p>123 Street, Boulivard, DVO</p>
                     </div>
                 </div>
                 <div class="d-flex">
                     <h4 class="fa fa-envelope text-primary"></h4>
                     <div class="pl-3">
                         <h5 class="text-white">Email</h5>
-                        <p>info@example.com</p>
+                        <p>info@iscpdavao.com</p>
                     </div>
                 </div>
                 <div class="d-flex">
@@ -68,13 +68,14 @@
                         <button class="btn btn-primary btn-block border-0 py-3" type="submit">Submit Now</button>
                     </div>
                 </form>
-            </div>
+            </div> 
         </div>
         <div class="container-fluid pt-5" style="border-top: 1px solid rgba(23, 162, 184, .2);;">
             <p class="m-0 text-center text-white">
                 &copy; <a class="text-primary font-weight-bold" href="#">International State College of the philippines</a>. 
                 <br/>
-                All Rights Reserved.&nbsp;Designed by <a class="text-primary font-weight-bold" href="#">Z-Ray</a>
+                All Rights Reserved.&nbsp;
+                <br/>Website is under constuction by <a class="text-primary font-weight-bold" href="#">Z-Ray</a>
             </p>
         </div>
     </div>

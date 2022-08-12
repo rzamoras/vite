@@ -22,209 +22,49 @@
                 <h1 class="mb-4">Meet Our Teachers</h1>
             </div>
             <div class="row">
-                <div class="col-md-6 col-lg-3 text-center team mb-5">
+                <div v-for="(teacher, idx) in teachers" :key="idx" class="col-md-6 col-lg-3 text-center team mb-5">
                     <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%;">
-                        <img class="img-fluid w-100" src="/src/assets/img/team-1.jpg" alt="" >
+                        <img class="img-fluid w-100" :src="teacher.path" :alt="teacher.name" >
                         <div
                             class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
                             <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
                                 href="#"><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
-                                href="#"><i class="fab fa-facebook-f"></i></a>
+                                href="https://www.facebook.com/ISCPhilippines" target="_blank"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-outline-light text-center px-0" style="width: 38px; height: 38px;"
                                 href="#"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
-                    <h4>Julia Smith</h4>
-                    <i>Music Teacher</i>
-                </div>
-                <div class="col-md-6 col-lg-3 text-center team mb-5">
-                    <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%;">
-                        <img class="img-fluid w-100" src="/src/assets/img/team-2.jpg" alt="" >
-                        <div
-                            class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
-                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
-                                href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
-                                href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light text-center px-0" style="width: 38px; height: 38px;"
-                                href="#"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <h4>Jhon Doe</h4>
-                    <i>Language Teacher</i>
-                </div>
-                <div class="col-md-6 col-lg-3 text-center team mb-5">
-                    <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%;">
-                        <img class="img-fluid w-100" src="/src/assets/img/team-3.jpg" alt="" >
-                        <div
-                            class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
-                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
-                                href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
-                                href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light text-center px-0" style="width: 38px; height: 38px;"
-                                href="#"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <h4>Mollie Ross</h4>
-                    <i>Dance Teacher</i>
-                </div>
-                <div class="col-md-6 col-lg-3 text-center team mb-5">
-                    <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%;">
-                        <img class="img-fluid w-100" src="/src/assets/img/team-4.jpg" alt="" >
-                        <div
-                            class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
-                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
-                                href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
-                                href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light text-center px-0" style="width: 38px; height: 38px;"
-                                href="#"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <h4>Donald John</h4>
-                    <i>Art Teacher</i>
-                </div>
-                <div class="col-md-6 col-lg-3 text-center team mb-5">
-                    <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%;">
-                        <img class="img-fluid w-100" src="/src/assets/img/team-4.jpg" alt="" >
-                        <div
-                            class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
-                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
-                                href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
-                                href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light text-center px-0" style="width: 38px; height: 38px;"
-                                href="#"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <h4>Julia Smith</h4>
-                    <i>Music Teacher</i>
-                </div>
-                <div class="col-md-6 col-lg-3 text-center team mb-5">
-                    <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%;">
-                        <img class="img-fluid w-100" src="/src/assets/img/team-3.jpg" alt="" >
-                        <div
-                            class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
-                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
-                                href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
-                                href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light text-center px-0" style="width: 38px; height: 38px;"
-                                href="#"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <h4>Jhon Doe</h4>
-                    <i>Language Teacher</i>
-                </div>
-                <div class="col-md-6 col-lg-3 text-center team mb-5">
-                    <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%;">
-                        <img class="img-fluid w-100" src="/src/assets/img/team-2.jpg" alt="" >
-                        <div
-                            class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
-                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
-                                href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
-                                href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light text-center px-0" style="width: 38px; height: 38px;"
-                                href="#"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <h4>Mollie Ross</h4>
-                    <i>Dance Teacher</i>
-                </div>
-                <div class="col-md-6 col-lg-3 text-center team mb-5">
-                    <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%;">
-                        <img class="img-fluid w-100" src="/src/assets/img/team-1.jpg" alt="" >
-                        <div
-                            class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
-                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
-                                href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
-                                href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light text-center px-0" style="width: 38px; height: 38px;"
-                                href="#"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <h4>Donald John</h4>
-                    <i>Art Teacher</i>
+                    <h4>{{ teacher.name }}</h4>
+                    <i>{{ teacher.position }}</i>
                 </div>
             </div>
         </div>
     </div>
     <!-- Team End -->
 
-
-    <!-- Testimonial Start -->
-    <div class="container-fluid py-5">
-        <div class="container p-0">
-            <div class="text-center pb-2">
-                <p class="section-title px-5"><span class="px-2">Testimonial</span></p>
-                <h1 class="mb-4">What Parents Say!</h1>
-            </div>
-            <div class="owl-carousel testimonial-carousel">
-                <div class="testimonial-item px-3">
-                    <div class="bg-light shadow-sm rounded mb-4 p-4">
-                        <h3 class="fas fa-quote-left text-primary mr-3"></h3>
-                        Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum clita
-                    </div>
-                    <div class="d-flex align-items-center">
-                        <img class="rounded-circle" src="/src/assets/img/testimonial-1.jpg" style="width: 70px; height: 70px;" alt="Image">
-                        <div class="pl-3">
-                            <h5>Parent Name</h5>
-                            <i>Profession</i>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-item px-3">
-                    <div class="bg-light shadow-sm rounded mb-4 p-4">
-                        <h3 class="fas fa-quote-left text-primary mr-3"></h3>
-                        Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum clita
-                    </div>
-                    <div class="d-flex align-items-center">
-                        <img class="rounded-circle" src="/src/assets/img/testimonial-2.jpg" style="width: 70px; height: 70px;" alt="Image">
-                        <div class="pl-3">
-                            <h5>Parent Name</h5>
-                            <i>Profession</i>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-item px-3">
-                    <div class="bg-light shadow-sm rounded mb-4 p-4">
-                        <h3 class="fas fa-quote-left text-primary mr-3"></h3>
-                        Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum clita
-                    </div>
-                    <div class="d-flex align-items-center">
-                        <img class="rounded-circle" src="/src/assets/img/testimonial-3.jpg" style="width: 70px; height: 70px;" alt="Image">
-                        <div class="pl-3">
-                            <h5>Parent Name</h5>
-                            <i>Profession</i>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-item px-3">
-                    <div class="bg-light shadow-sm rounded mb-4 p-4">
-                        <h3 class="fas fa-quote-left text-primary mr-3"></h3>
-                        Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum clita
-                    </div>
-                    <div class="d-flex align-items-center">
-                        <img class="rounded-circle" src="/src/assets/img/testimonial-4.jpg" style="width: 70px; height: 70px;" alt="Image">
-                        <div class="pl-3">
-                            <h5>Parent Name</h5>
-                            <i>Profession</i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Testimonial End -->
 </div>
 </template>
 
 <script>
+import { ref } from '@vue/reactivity'
 export default {
+    setup(){
+        const teachers = ref([
+            {name: 'Prof. Ricahard Gomez', position:'Dean of College in Fine Arts', path:'/src/assets/img/teams/dean_fine-arts.png'},
+            {name: 'Prof. Kim Atienza', position:'Dean in College of Education', path:'/src/assets/img/teams/prof_kim.png'},
+            {name:'Dr. Farrah Agustin-Bunch, MD', position:'Dean in College of Medicine', path:'/src/assets/img/teams/dr_farrah.png'},
+            {name: 'Prof. Angelica Lopez de Santibañez', position:'Dean in Mass Communication', path:'/src/assets/img/teams/prof_angelica.png'},
+            {name: 'Prof. Didjay Vidjay', position:'Dean of College in Busness Add.', path:'/src/assets/img/teams/prof_didjay.png'},
+            {name: 'Pro. Gabriela Annjane Umali Cruz', position:'Dean in Philippine History', path:'/src/assets/img/teams/prof_gabriela.png'},
+            {name: 'Prof. Imelda Staunton', position:'Office of the Registrar - OIC', path:'/src/assets/img/teams/prof_imelda.jpg'},
+            {name: 'Prof. Jodi Lyn O&#x27Keefe', position:'Dean in BA English Langauge', path:'/src/assets/img/teams/prof_jodi.png'},
+        ])
+
+        return {
+            teachers
+        }
+    }
 
 }
 </script>

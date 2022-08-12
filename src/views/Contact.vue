@@ -54,14 +54,14 @@
                         <i class="fa fa-map-marker-alt d-inline-flex align-items-center justify-content-center bg-primary text-secondary rounded-circle" style="width: 45px; height: 45px;"></i>
                         <div class="pl-3">
                             <h5>Address</h5>
-                            <p>123 Street, New York, USA</p>
+                            <p>123 Street, Boulivard, DVO</p>
                         </div>
                     </div>
                     <div class="d-flex">
                         <i class="fa fa-envelope d-inline-flex align-items-center justify-content-center bg-primary text-secondary rounded-circle" style="width: 45px; height: 45px;"></i>
                         <div class="pl-3">
                             <h5>Email</h5>
-                            <p>info@example.com</p>
+                            <p>info@iscpdavao.com</p>
                         </div>
                     </div>
                     <div class="d-flex">
