@@ -35,7 +35,7 @@
                 <div v-for="(path, idx) in paths" :key="idx" class="col-lg-4 col-md-6 mb-4 portfolio-item first">
                     <div class="position-relative overflow-hidden mb-2">
                         <div class="">
-                            <img class="img-fluid w-full h-80 object-cover hover:object-scale-down" :src="path" :alt="path">
+                            <img class="img-fluid w-full h-80 object-cover hover:object-scale-down" :src="path" alt="ISCP Gallery">
                         </div>
                         <div class="portfolio-btn d-flex align-items-center justify-content-center">
                             <a :href="path" data-lightbox="portfolio">
