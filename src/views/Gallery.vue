@@ -1,3 +1,32 @@
+<script>
+import { ref } from '@vue/reactivity'
+export default {
+    setup(){
+        const paths = ref([
+            '/src/assets/img/gallery/applicants.png',
+            '/src/assets/img/gallery/arf-arf.jpg',
+            '/src/assets/img/gallery/canteen.jpg',
+            '/src/assets/img/gallery/buwan_wika.png',
+            '/src/assets/img/gallery/dj_loonyo.png',
+            '/src/assets/img/gallery/free_tuition.png',
+            '/src/assets/img/gallery/hafazz.jpg',
+            '/src/assets/img/gallery/iscp_class-supension.png',
+            '/src/assets/img/gallery/iscp_sun-campus.jpg',
+            '/src/assets/img/gallery/iscpanians.png',
+            '/src/assets/img/gallery/ISCP-Logo.png',
+            '/src/assets/img/gallery/jovit.png',
+            '/src/assets/img/gallery/lexi_lore_iscp.png',
+            '/src/assets/img/gallery/libreng_sakay.jpg',
+            '/src/assets/img/gallery/top90.jpg',
+        ])
+    
+        return {
+            paths
+        }
+    }
+}
+</script>
+
 <template>
 <div>
     <!-- Header Start -->
@@ -51,35 +80,6 @@
 
 </div>
 </template>
-
-<script>
-import { ref } from '@vue/reactivity'
-export default {
-    setup(){
-        const paths = ref([
-            '/src/assets/img/gallery/applicants.png',
-            '/src/assets/img/gallery/arf-arf.jpg',
-            '/src/assets/img/gallery/canteen.jpg',
-            '/src/assets/img/gallery/buwan_wika.png',
-            '/src/assets/img/gallery/dj_loonyo.png',
-            '/src/assets/img/gallery/free_tuition.png',
-            '/src/assets/img/gallery/hafazz.jpg',
-            '/src/assets/img/gallery/iscp_class-supension.png',
-            '/src/assets/img/gallery/iscp_sun-campus.jpg',
-            '/src/assets/img/gallery/iscpanians.png',
-            '/src/assets/img/gallery/ISCP-Logo.png',
-            '/src/assets/img/gallery/jovit.png',
-            '/src/assets/img/gallery/lexi_lore_iscp.png',
-            '/src/assets/img/gallery/libreng_sakay.jpg',
-            '/src/assets/img/gallery/top90.jpg',
-        ])
-    
-        return {
-            paths
-        }
-    }
-}
-</script>
 
 <style>
 
