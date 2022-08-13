@@ -72,10 +72,9 @@
         </div>
         <div class="container-fluid pt-5" style="border-top: 1px solid rgba(23, 162, 184, .2);;">
             <p class="m-0 text-center text-white">
-                &copy; <a class="text-primary font-weight-bold" href="#">International State College of the philippines</a>. 
-                <br/>
-                All Rights Reserved.&nbsp;
+                &copy; <a class="text-primary font-weight-bold" href="#">International State College of the philippines</a>. All Rights Reserved.&nbsp;
                 <br/>Website is under constuction by <a class="text-primary font-weight-bold" href="#">Z-Ray</a>
+                <br/>Be our sponsor. <strong>GCash &minus; 09276166164</strong>
             </p>
         </div>
     </div>
