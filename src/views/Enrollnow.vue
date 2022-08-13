@@ -143,7 +143,7 @@ const register = () =>{
     .then((data) =>{
         // console.log(data);
         window.location.reload();
-        router.push('/welcome');
+        router.push('/gallery');
     })
     .catch((error) =>{
         console.log(error.code);

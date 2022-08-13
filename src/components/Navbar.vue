@@ -39,8 +39,6 @@
                     </div> -->
                         <router-link to="/contact" class="nav-item nav-link"
                             :class="{ 'active': $route.path == '/contact' }">Contact</router-link>
-                        <router-link to="/welcome" class="nav-item nav-link"
-                            :class="{ 'active': $route.path == '/welcome' }" v-if="isLoggedIn">welcome</router-link>
                     </div>
                     <!-- <button id="dropdownAvatarNameButton" data-dropdown-toggle="dropdownAvatarName"
                         class="flex items-center text-sm font-medium text-gray-900 rounded-full hover:text-blue-600 dark:hover:text-blue-500 md:mr-0 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:text-white"
@@ -63,18 +61,18 @@
                                     type="button" id="dropdownMenuButton1d" data-bs-toggle="dropdown"
                                     aria-expanded="false">
                                     <img class="mr-2 w-10 h-10 rounded-full" src="/img/teams/prof_kim.png" alt="user photo">
-                                    Dropdown
+                                    Prof. Kim
                                     
                                 </button>
                                 <ul class="dropdown-menu min-w-max absolute hidden bg-white text-base z-50 float-left py-2 list-none text-left rounded-lg shadow-lg mt-1 m-0 bg-clip-padding border-none" aria-labelledby="dropdownMenuButton1d">
                                     <li>
-                                        <a class=" dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">Action</a>
+                                        <a class=" dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">Profile</a>
                                     </li>
                                     <li>
-                                        <a class=" dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent xt-gray-700 ver:bg-gray-100" href="#">Another action</a>
+                                        <a class=" dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent xt-gray-700 ver:bg-gray-100" href="#">Records</a>
                                     </li>
                                     <li>
-                                        <a class=" dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">Something else here</a>
+                                        <a class=" dropdown-item text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100" href="#">ISCPanians Forum</a>
                                     </li>
                                     <hr class="h-0 my-2 border border-solid border-t-0 border-gray-700 opacity-25" />
                                     <li>
@@ -263,7 +261,7 @@ const signInWithGoogle = () => {
     signInWithPopup(getAuth(), provider)
         .then((result) => {
             console.log(result);
-            router.go('/')
+            router.go('/gallery')
         })
         .catch((error) => {
             console.log(error.code);
