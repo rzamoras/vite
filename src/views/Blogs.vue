@@ -22,122 +22,20 @@
                     <h1 class="mb-4">Latest Articles From Blog</h1>
                 </div>
                 <div class="row pb-3">
-                    <div class="col-lg-4 mb-4">
+                    <div v-for="(blog, idx) in blogs" :key="idx"  class="col-lg-4 mb-4">
                         <div class="card border-0 shadow-sm mb-2">
-                            <img class="card-img-top mb-2" src="/img/blog-1.jpg" alt="">
+                            <img class="card-img-top mb-2" :src="blog.img" alt="">
                             <div class="card-body bg-light text-center p-4">
-                                <h4 class="">Diam amet eos at no eos</h4>
+                                <h4 class="">{{ blog.title }}</h4>
                                 <div class="d-flex justify-content-center mb-3">
                                     <small class="mr-3"><i class="fa fa-user text-primary"></i> Admin</small>
-                                    <small class="mr-3"><i class="fa fa-folder text-primary"></i> Web Design</small>
+                                    <small class="mr-3"><i class="fa fa-folder text-primary"></i> Sponsor</small>
                                     <small class="mr-3"><i class="fa fa-comments text-primary"></i> 15</small>
                                 </div>
-                                <p>Sed kasd sea sed at elitr sed ipsum justo, sit nonumy diam eirmod, duo et sed sit
-                                    eirmod kasd clita tempor dolor stet lorem. Tempor ipsum justo amet stet...</p>
+                                <p>{{ blog.content }}</p>
                                 <a href="" class="btn btn-primary px-4 mx-auto my-2">Read More</a>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 mb-4">
-                        <div class="card border-0 shadow-sm mb-2">
-                            <img class="card-img-top mb-2" src="/img/blog-2.jpg" alt="">
-                            <div class="card-body bg-light text-center p-4">
-                                <h4 class="">Diam amet eos at no eos</h4>
-                                <div class="d-flex justify-content-center mb-3">
-                                    <small class="mr-3"><i class="fa fa-user text-primary"></i> Admin</small>
-                                    <small class="mr-3"><i class="fa fa-folder text-primary"></i> Web Design</small>
-                                    <small class="mr-3"><i class="fa fa-comments text-primary"></i> 15</small>
-                                </div>
-                                <p>Sed kasd sea sed at elitr sed ipsum justo, sit nonumy diam eirmod, duo et sed sit
-                                    eirmod kasd clita tempor dolor stet lorem. Tempor ipsum justo amet stet...</p>
-                                <a href="" class="btn btn-primary px-4 mx-auto my-2">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 mb-4">
-                        <div class="card border-0 shadow-sm mb-2">
-                            <img class="card-img-top mb-2" src="/img/blog-3.jpg" alt="">
-                            <div class="card-body bg-light text-center p-4">
-                                <h4 class="">Diam amet eos at no eos</h4>
-                                <div class="d-flex justify-content-center mb-3">
-                                    <small class="mr-3"><i class="fa fa-user text-primary"></i> Admin</small>
-                                    <small class="mr-3"><i class="fa fa-folder text-primary"></i> Web Design</small>
-                                    <small class="mr-3"><i class="fa fa-comments text-primary"></i> 15</small>
-                                </div>
-                                <p>Sed kasd sea sed at elitr sed ipsum justo, sit nonumy diam eirmod, duo et sed sit
-                                    eirmod kasd clita tempor dolor stet lorem. Tempor ipsum justo amet stet...</p>
-                                <a href="" class="btn btn-primary px-4 mx-auto my-2">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 mb-4">
-                        <div class="card border-0 shadow-sm mb-2">
-                            <img class="card-img-top mb-2" src="/img/blog-1.jpg" alt="">
-                            <div class="card-body bg-light text-center p-4">
-                                <h4 class="">Diam amet eos at no eos</h4>
-                                <div class="d-flex justify-content-center mb-3">
-                                    <small class="mr-3"><i class="fa fa-user text-primary"></i> Admin</small>
-                                    <small class="mr-3"><i class="fa fa-folder text-primary"></i> Web Design</small>
-                                    <small class="mr-3"><i class="fa fa-comments text-primary"></i> 15</small>
-                                </div>
-                                <p>Sed kasd sea sed at elitr sed ipsum justo, sit nonumy diam eirmod, duo et sed sit
-                                    eirmod kasd clita tempor dolor stet lorem. Tempor ipsum justo amet stet...</p>
-                                <a href="" class="btn btn-primary px-4 mx-auto my-2">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 mb-4">
-                        <div class="card border-0 shadow-sm mb-2">
-                            <img class="card-img-top mb-2" src="/img/blog-2.jpg" alt="">
-                            <div class="card-body bg-light text-center p-4">
-                                <h4 class="">Diam amet eos at no eos</h4>
-                                <div class="d-flex justify-content-center mb-3">
-                                    <small class="mr-3"><i class="fa fa-user text-primary"></i> Admin</small>
-                                    <small class="mr-3"><i class="fa fa-folder text-primary"></i> Web Design</small>
-                                    <small class="mr-3"><i class="fa fa-comments text-primary"></i> 15</small>
-                                </div>
-                                <p>Sed kasd sea sed at elitr sed ipsum justo, sit nonumy diam eirmod, duo et sed sit
-                                    eirmod kasd clita tempor dolor stet lorem. Tempor ipsum justo amet stet...</p>
-                                <a href="" class="btn btn-primary px-4 mx-auto my-2">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 mb-4">
-                        <div class="card border-0 shadow-sm mb-2">
-                            <img class="card-img-top mb-2" src="/img/blog-3.jpg" alt="">
-                            <div class="card-body bg-light text-center p-4">
-                                <h4 class="">Diam amet eos at no eos</h4>
-                                <div class="d-flex justify-content-center mb-3">
-                                    <small class="mr-3"><i class="fa fa-user text-primary"></i> Admin</small>
-                                    <small class="mr-3"><i class="fa fa-folder text-primary"></i> Web Design</small>
-                                    <small class="mr-3"><i class="fa fa-comments text-primary"></i> 15</small>
-                                </div>
-                                <p>Sed kasd sea sed at elitr sed ipsum justo, sit nonumy diam eirmod, duo et sed sit
-                                    eirmod kasd clita tempor dolor stet lorem. Tempor ipsum justo amet stet...</p>
-                                <a href="" class="btn btn-primary px-4 mx-auto my-2">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-4">
-                        <nav aria-label="Page navigation">
-                            <ul class="pagination justify-content-center mb-0">
-                                <li class="page-item disabled">
-                                    <a class="page-link" href="#" aria-label="Previous">
-                                        <span aria-hidden="true">&laquo;</span>
-                                        <span class="sr-only">Previous</span>
-                                    </a>
-                                </li>
-                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                <li class="page-item">
-                                    <a class="page-link" href="#" aria-label="Next">
-                                        <span aria-hidden="true">&raquo;</span>
-                                        <span class="sr-only">Next</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </nav>
                     </div>
                 </div>
             </div>
@@ -148,7 +46,29 @@
 
 <script>
 export default {
+    setup(){
+        const blogs =([
+            {
+                title:'We Now Offer Cable Car Transit', 
+                img: '/img/blogs/cable_car.jpg',
+                content: 'ISCPanians can now avail cable car transit all over NCR, for FREE. This is an initiative of the ISCP to reduce traffic in Metro Manila and to provide affordable transportation to students.',
+            },
+            {
+                title: 'Find a campus near you!',
+                img: '/img/blogs/find_campus.png',
+                content: 'Find a campus near you, or ride our highly advanced transport system. ISCP ensures all students get their education to the most inaccessible and inhospitable parts of the Philippines, the world, and the Solar System. Enroll with us today at the ISCP.',
+            },
+            {
+                title: 'Mandatory Exercise Routine',
+                img: '/img/blogs/mandatory_exercise.jpg',
+                content: 'he ISCP strongly encourages everyone to do the morning routine exercises to their respective classrooms. We believe that a healthy body means death and suffering as long as possible.'
+            }
+        ])
 
+        return {
+            blogs
+        }
+    }
 }
 </script>
 
