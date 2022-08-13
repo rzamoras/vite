@@ -13,7 +13,9 @@
                     </p>
                     <div class="row pt-2 pb-4">
                         <div class="col-6 col-md-4">
+                            <a href="/img/courses/pc-washing.webp" data-lightbox="portfolio">
                             <img class="img-fluid rounded bg-cover" src="/img/courses/pc-washing.webp" alt="">
+                            </a>
                         </div>
                         <div class="col-6 col-md-8">
                             <ul class="list-inline m-0">
