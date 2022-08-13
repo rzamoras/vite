@@ -11,7 +11,7 @@ export default {
 
 <template>
 <div>
-  <Navbar />
+  <Navbar class="mb-20" />
   <router-view/>
   <Footer/>
 </div>

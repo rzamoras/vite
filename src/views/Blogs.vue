@@ -24,7 +24,7 @@
                 <div class="row pb-3">
                     <div v-for="(blog, idx) in blogs" :key="idx"  class="col-lg-4 mb-4">
                         <div class="card border-0 shadow-sm mb-2">
-                            <img class="card-img-top mb-2" :src="blog.img" alt="">
+                            <img class="card-img-top mb-2 w-full object-cover" :src="blog.img" alt="">
                             <div class="card-body bg-light text-center p-4">
                                 <h4 class="">{{ blog.title }}</h4>
                                 <div class="d-flex justify-content-center mb-3">
@@ -62,6 +62,11 @@ export default {
                 title: 'Mandatory Exercise Routine',
                 img: '/img/blogs/mandatory_exercise.jpg',
                 content: 'he ISCP strongly encourages everyone to do the morning routine exercises to their respective classrooms. We believe that a healthy body means death and suffering as long as possible.'
+            },
+            {
+                title: 'LOOK: New member of UAAP',
+                img: '/img/blogs/aspins.jpg',
+                content: 'The Blue Barking Aspins (also known as Barking Aspins) are the collegiate varsity team of the International State College of the Philippines (ISCP) that play in the University Athletic Association of the Philippines (UAAP). The Aspin, short for asong pinoy, is the main symbol of ISCP athletic teams which symbolizes love and intelligence.'
             }
         ])
 
