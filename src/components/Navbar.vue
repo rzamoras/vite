@@ -25,9 +25,9 @@
                             <a href="single.html" class="dropdown-item">Blog Detail</a>
                         </div>
                     </div> -->
-                    <router-link to="/contact" class="nav-item nav-link">Contact</router-link>
+                    <router-link to="/contact" class="nav-item nav-link"  :class="{'active' : $route.path == '/contact'}">Contact</router-link>
                 </div>
-                <a href="" class="btn btn-primary px-4">Join Class</a>
+                <a href="" class="btn btn-primary px-4">Enroll Now</a>
             </div>
         </nav>
     </div>
