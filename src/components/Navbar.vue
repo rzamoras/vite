@@ -3,13 +3,13 @@
         <!-- Navbar Start -->
         <div class="container-fluid bg-light position-relative shadow">
             <nav
-                class="fixed w-full  z-20 top-0 left-0 border-b border-gray-200  navbar navbar-expand-lg bg-light navbar-light py-0 py-lg-0 px-0 px-lg-5">
+                class="fixed w-full  z-20 top-0 left-0 border-b border-gray-200  navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0 px-lg-5">
                 <router-link to="/" class="flex items-center navbar-brand font-weight-bold text-secondary" style="font-size: 50px;">
                     <!-- <i class="flaticon-043-teddy-bear"></i> -->
-                        <img src="/img/iscplogo.png" class="mr-3 h-20"
+                        <img src="/img/iscplogo.png" class="mr-3 md:h-20 h-10"
                             alt="ISCP Logo">
                         <span
-                            class="self-center text-5xl font-semibold whitespace-nowrap dark:text-white">ISCP</span>
+                            class="self-center md:text-5xl text-4xl font-semibold whitespace-nowrap dark:text-white">ISCP</span>
 
                     <!-- <span class="text-primary">ISCP</span> -->
                 </router-link>
