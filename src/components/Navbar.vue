@@ -12,12 +12,12 @@
             </button>
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav img-weight-bold mx-auto py-0">
-                    <router-link to="/" class="nav-item nav-link active">Home</router-link>
-                    <router-link to="/about" class="nav-item nav-link">About</router-link>
-                    <router-link to="/class" class="nav-item nav-link">Classes</router-link>
-                    <router-link to="/team" class="nav-item nav-link">Teachers</router-link>
-                    <router-link to="/gallery" class="nav-item nav-link">Gallery</router-link>
-                    <router-link to="/blogs" class="nav-item nav-link">Blogs</router-link>
+                    <router-link to="/" class="nav-item nav-link" :class="{'active' : $route.path == '/'}">Home</router-link>
+                    <router-link to="/about" class="nav-item nav-link" :class="{'active' : $route.path == '/about'}">About</router-link>
+                    <router-link to="/class" class="nav-item nav-link" :class="{'active' : $route.path == '/class'}">Classes</router-link>
+                    <router-link to="/team" class="nav-item nav-link" :class="{'active' : $route.path == '/team'}">Teachers</router-link>
+                    <router-link to="/gallery" class="nav-item nav-link" :class="{'active' : $route.path == '/gallery'}">Gallery</router-link>
+                    <router-link to="/blogs" class="nav-item nav-link" :class="{'active' : $route.path == '/blogs'}">Blogs</router-link>
                     <!-- <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu rounded-0 m-0">
