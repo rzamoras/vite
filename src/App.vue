@@ -12,6 +12,7 @@ export default {
 <template>
 <div>
   <Navbar class="mb-20" />
+  <notifications class="" position="top left"/>
   <router-view/>
   <Footer/>
 </div>
