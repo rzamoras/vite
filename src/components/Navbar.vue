@@ -138,7 +138,7 @@
                                 <button @click="signIn" data-bs-dismiss="modal"
                                     class="block w-full p-3 bg-indigo-600 text-white text-center rounded-sm dark:text-gray-900 dark:bg-violet-400">Sign
                                     in</button>
-                                <button ref="hidModal" class="hidden" data-bs-dismiss="modal">hidden</button>
+                                <button id="hidModal" class="hidden" data-bs-dismiss="modal">hidden</button>
                             </form>
                             <div class="flex items-center pt-4 space-x-1">
                                 <div class="flex-1 h-px sm:w-16 dark:bg-gray-700"></div>
@@ -173,8 +173,8 @@
                                 </button>
                             </div>
                             <p class="text-xs text-center sm:px-6 dark:text-gray-400">Don't have an account?
-                                <router-link to="/enroll-now" rel="noopener noreferrer"
-                                    class="underline dark:text-gray-100" data-modal-toggle="authentication-modal">Sign
+                                <router-link @click="hidThis" to="/enroll-now" rel="noopener noreferrer"
+                                    class="underline dark:text-gray-100">Sign
                                     up</router-link>
                             </p>
                         </div>
@@ -211,6 +211,11 @@ onMounted(() => {
         }
     })
 })
+
+const hidThis = () => {
+    let btn = document.getElementById('hidModal');
+    btn.click();
+}
 
 const email = ref('');
 const password = ref('');
