@@ -52,12 +52,12 @@
                 </div>
                 <div>
                     <label for="email" class="text-sm font-medium leading-none text-gray-800"> Email </label>
-                    <input v-model="email" id="email" aria-labelledby="email" type="email" class="bg-gray-200 border rounded text-xs font-medium leading-none placeholder-gray-800 text-gray-800 py-3 w-full pl-3 mt-2" placeholder="e.g: john@gmail.com " />
+                    <input v-model="regEmail" id="email" aria-labelledby="email" type="email" class="bg-gray-200 border rounded text-xs font-medium leading-none placeholder-gray-800 text-gray-800 py-3 w-full pl-3 mt-2" placeholder="e.g: john@gmail.com " />
                 </div>
                 <div class="mt-6 w-full">
                     <label for="pass" class="text-sm font-medium leading-none text-gray-800"> Password </label>
                     <div class="relative flex items-center justify-center">
-                        <input v-model="password" id="myInput" :type="show ? 'password' : 'text'" class="bg-gray-200 border rounded text-xs font-medium leading-none text-gray-800 py-3 w-full pl-3 mt-2" />
+                        <input v-model="regPassword" id="myInput" :type="show ? 'password' : 'text'" class="bg-gray-200 border rounded text-xs font-medium leading-none text-gray-800 py-3 w-full pl-3 mt-2" />
                         <div class="absolute right-0 mt-2 mr-3 cursor-pointer">
                             <div id="show" @click="show = false" v-if="show">
                                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -78,8 +78,8 @@
                         </div>
                     </div>
                 </div>
-                <div v-if="errMsg">
-                    <p>{{ errMsg }}</p>
+                <div v-if="regErrMsg">
+                    <p>{{ regErrMsg }}</p>
                 </div>
                 <div class="mt-8">
                     <button @click="register" role="button" class="focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 text-sm font-semibold leading-none text-white focus:outline-none bg-indigo-700 border rounded hover:bg-indigo-600 py-4 w-full">Create my account</button>
@@ -132,11 +132,11 @@ import { ref } from "@vue/reactivity";
 import {getAuth, createUserWithEmailAndPassword} from 'firebase/auth';
 import router from "../router";
 
-const show = true;
+let show = true;
 
-const email = ref('');
-const password = ref('');
-const errMsg = ref();
+const regEmail = ref('');
+const regPassword = ref('');
+const regErrMsg = ref();
 
 const register = () =>{ 
     createUserWithEmailAndPassword(getAuth(), email.value, password.value)
