@@ -3,21 +3,21 @@ import { ref } from '@vue/reactivity'
 export default {
     setup(){
         const paths = ref([
-            '/src/assets/img/gallery/applicants.png',
-            '/src/assets/img/gallery/arf-arf.jpg',
-            '/src/assets/img/gallery/canteen.jpg',
-            '/src/assets/img/gallery/buwan_wika.png',
-            '/src/assets/img/gallery/dj_loonyo.png',
-            '/src/assets/img/gallery/free_tuition.png',
-            '/src/assets/img/gallery/hafazz.jpg',
-            '/src/assets/img/gallery/iscp_class-supension.png',
-            '/src/assets/img/gallery/iscp_sun-campus.jpg',
-            '/src/assets/img/gallery/iscpanians.png',
-            '/src/assets/img/gallery/ISCP-Logo.png',
-            '/src/assets/img/gallery/jovit.png',
-            '/src/assets/img/gallery/lexi_lore_iscp.png',
-            '/src/assets/img/gallery/libreng_sakay.jpg',
-            '/src/assets/img/gallery/top90.jpg',
+            'img/gallery/applicants.png',
+            'img/gallery/arf-arf.jpg',
+            'img/gallery/canteen.jpg',
+            'img/gallery/buwan_wika.png',
+            'img/gallery/dj_loonyo.png',
+            'img/gallery/free_tuition.png',
+            'img/gallery/hafazz.jpg',
+            'img/gallery/iscp_class-supension.png',
+            'img/gallery/iscp_sun-campus.jpg',
+            'img/gallery/iscpanians.png',
+            'img/gallery/ISCP-Logo.png',
+            'img/gallery/jovit.png',
+            'img/gallery/lexi_lore_iscp.png',
+            'img/gallery/libreng_sakay.jpg',
+            'img/gallery/top90.jpg',
         ])
     
         return {
