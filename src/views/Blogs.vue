@@ -24,7 +24,7 @@
                 <div class="row pb-3">
                     <div class="col-lg-4 mb-4">
                         <div class="card border-0 shadow-sm mb-2">
-                            <img class="card-img-top mb-2" src="/src/assets/img/blog-1.jpg" alt="">
+                            <img class="card-img-top mb-2" src="/img/blog-1.jpg" alt="">
                             <div class="card-body bg-light text-center p-4">
                                 <h4 class="">Diam amet eos at no eos</h4>
                                 <div class="d-flex justify-content-center mb-3">
@@ -40,7 +40,7 @@
                     </div>
                     <div class="col-lg-4 mb-4">
                         <div class="card border-0 shadow-sm mb-2">
-                            <img class="card-img-top mb-2" src="/src/assets/img/blog-2.jpg" alt="">
+                            <img class="card-img-top mb-2" src="/img/blog-2.jpg" alt="">
                             <div class="card-body bg-light text-center p-4">
                                 <h4 class="">Diam amet eos at no eos</h4>
                                 <div class="d-flex justify-content-center mb-3">
@@ -56,7 +56,7 @@
                     </div>
                     <div class="col-lg-4 mb-4">
                         <div class="card border-0 shadow-sm mb-2">
-                            <img class="card-img-top mb-2" src="/src/assets/img/blog-3.jpg" alt="">
+                            <img class="card-img-top mb-2" src="/img/blog-3.jpg" alt="">
                             <div class="card-body bg-light text-center p-4">
                                 <h4 class="">Diam amet eos at no eos</h4>
                                 <div class="d-flex justify-content-center mb-3">
@@ -72,7 +72,7 @@
                     </div>
                     <div class="col-lg-4 mb-4">
                         <div class="card border-0 shadow-sm mb-2">
-                            <img class="card-img-top mb-2" src="/src/assets/img/blog-1.jpg" alt="">
+                            <img class="card-img-top mb-2" src="/img/blog-1.jpg" alt="">
                             <div class="card-body bg-light text-center p-4">
                                 <h4 class="">Diam amet eos at no eos</h4>
                                 <div class="d-flex justify-content-center mb-3">
@@ -88,7 +88,7 @@
                     </div>
                     <div class="col-lg-4 mb-4">
                         <div class="card border-0 shadow-sm mb-2">
-                            <img class="card-img-top mb-2" src="/src/assets/img/blog-2.jpg" alt="">
+                            <img class="card-img-top mb-2" src="/img/blog-2.jpg" alt="">
                             <div class="card-body bg-light text-center p-4">
                                 <h4 class="">Diam amet eos at no eos</h4>
                                 <div class="d-flex justify-content-center mb-3">
@@ -104,7 +104,7 @@
                     </div>
                     <div class="col-lg-4 mb-4">
                         <div class="card border-0 shadow-sm mb-2">
-                            <img class="card-img-top mb-2" src="/src/assets/img/blog-3.jpg" alt="">
+                            <img class="card-img-top mb-2" src="/img/blog-3.jpg" alt="">
                             <div class="card-body bg-light text-center p-4">
                                 <h4 class="">Diam amet eos at no eos</h4>
                                 <div class="d-flex justify-content-center mb-3">

@@ -10,7 +10,7 @@
                 <a href="" class="btn btn-secondary mt-1 py-3 px-5">Learn More</a>
             </div>
             <div class="col-lg-6 text-center text-lg-right rounded">
-                <img class="img-fluid mt-5" src="/src/assets/img/courses/ba_graphicdesign.png" alt="">
+                <img class="img-fluid mt-5" src="/img/courses/ba_graphicdesign.png" alt="">
             </div>
         </div>
     </div>
@@ -56,7 +56,7 @@
                         Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum clita
                     </div>
                     <div class="d-flex align-items-center">
-                        <img class="rounded-circle" src="/src/assets/img/testimonial-1.jpg" style="width: 70px; height: 70px;" alt="Image">
+                        <img class="rounded-circle" src="/img/testimonial-1.jpg" style="width: 70px; height: 70px;" alt="Image">
                         <div class="pl-3">
                             <h5>Parent Name</h5>
                             <i>Profession</i>
@@ -69,7 +69,7 @@
                         Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum clita
                     </div>
                     <div class="d-flex align-items-center">
-                        <img class="rounded-circle" src="/src/assets/img/testimonial-2.jpg" style="width: 70px; height: 70px;" alt="Image">
+                        <img class="rounded-circle" src="/img/testimonial-2.jpg" style="width: 70px; height: 70px;" alt="Image">
                         <div class="pl-3">
                             <h5>Parent Name</h5>
                             <i>Profession</i>
@@ -82,7 +82,7 @@
                         Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum clita
                     </div>
                     <div class="d-flex align-items-center">
-                        <img class="rounded-circle" src="/src/assets/img/testimonial-3.jpg" style="width: 70px; height: 70px;" alt="Image">
+                        <img class="rounded-circle" src="/img/testimonial-3.jpg" style="width: 70px; height: 70px;" alt="Image">
                         <div class="pl-3">
                             <h5>Parent Name</h5>
                             <i>Profession</i>
@@ -95,7 +95,7 @@
                         Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum clita
                     </div>
                     <div class="d-flex align-items-center">
-                        <img class="rounded-circle" src="/src/assets/img/testimonial-4.jpg" style="width: 70px; height: 70px;" alt="Image">
+                        <img class="rounded-circle" src="/img/testimonial-4.jpg" style="width: 70px; height: 70px;" alt="Image">
                         <div class="pl-3">
                             <h5>Parent Name</h5>
                             <i>Profession</i>

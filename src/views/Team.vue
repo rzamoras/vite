@@ -51,14 +51,14 @@ import { ref } from '@vue/reactivity'
 export default {
     setup(){
         const teachers = ref([
-            {name: 'Prof. Ricahard Gomez', position:'Dean of College in Fine Arts', path:'/src/assets/img/teams/dean_fine-arts.png'},
-            {name: 'Prof. Kim Atienza', position:'Dean in College of Education', path:'/src/assets/img/teams/prof_kim.png'},
-            {name:'Dr. Farrah Agustin-Bunch, MD', position:'Dean in College of Medicine', path:'/src/assets/img/teams/dr_farrah.png'},
-            {name: 'Prof. Angelica Lopez de Santibañez', position:'Dean in Mass Communication', path:'/src/assets/img/teams/prof_angelica.png'},
-            {name: 'Prof. Didjay Vidjay', position:'Dean of College in Busness Add.', path:'/src/assets/img/teams/prof_didjay.png'},
-            {name: 'Pro. Gabriela Annjane Umali Cruz', position:'Dean in Philippine History', path:'/src/assets/img/teams/prof_gabriela.png'},
-            {name: 'Prof. Imelda Staunton', position:'Office of the Registrar - OIC', path:'/src/assets/img/teams/prof_imelda.jpg'},
-            {name: 'Prof. Jodi Lyn O&#x27Keefe', position:'Dean in BA English Langauge', path:'/src/assets/img/teams/prof_jodi.png'},
+            {name: 'Prof. Ricahard Gomez', position:'Dean of College in Fine Arts', path:'/img/teams/dean_fine-arts.png'},
+            {name: 'Prof. Kim Atienza', position:'Dean in College of Education', path:'/img/teams/prof_kim.png'},
+            {name:'Dr. Farrah Agustin-Bunch, MD', position:'Dean in College of Medicine', path:'/img/teams/dr_farrah.png'},
+            {name: 'Prof. Angelica Lopez de Santibañez', position:'Dean in Mass Communication', path:'/img/teams/prof_angelica.png'},
+            {name: 'Prof. Didjay Vidjay', position:'Dean of College in Busness Add.', path:'/img/teams/prof_didjay.png'},
+            {name: 'Pro. Gabriela Annjane Umali Cruz', position:'Dean in Philippine History', path:'/img/teams/prof_gabriela.png'},
+            {name: 'Prof. Imelda Staunton', position:'Office of the Registrar - OIC', path:'/img/teams/prof_imelda.jpg'},
+            {name: 'Prof. Jodi Lyn O&#x27Keefe', position:'Dean in BA English Langauge', path:'/img/teams/prof_jodi.png'},
         ])
 
         return {

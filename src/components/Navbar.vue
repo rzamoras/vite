@@ -11,7 +11,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                <div class="navbar-nav /src/assets/img/-weight-bold mx-auto py-0">
+                <div class="navbar-nav img-weight-bold mx-auto py-0">
                     <router-link to="/" class="nav-item nav-link active">Home</router-link>
                     <router-link to="/about" class="nav-item nav-link">About</router-link>
                     <router-link to="/class" class="nav-item nav-link">Classes</router-link>

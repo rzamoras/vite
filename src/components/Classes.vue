@@ -8,7 +8,7 @@
             <div class="row">
                 <div class="col-lg-4 mb-5">
                     <div class="card border-0 bg-light shadow-sm pb-2">
-                        <img class="card-img-top mb-2 h-[]" src="/src/assets/img/courses/bs_nursing.png" alt="">
+                        <img class="card-img-top mb-2 h-[]" src="/img/courses/bs_nursing.png" alt="">
                         <div class="card-body text-center">
                             <h4 class="card-title">Health Assessment Class</h4>
                             <p class="card-text">The Bachelor of Science in Nursing consists of general education, major and professional nursing courses.</p>
@@ -36,7 +36,7 @@
                 </div>
                 <div class="col-lg-4 mb-5">
                     <div class="card border-0 bg-light shadow-sm pb-2">
-                        <img class="card-img-top mb-2" src="/src/assets/img/courses/rotc-scout.jpg" alt="">
+                        <img class="card-img-top mb-2" src="/img/courses/rotc-scout.jpg" alt="">
                         <div class="card-body text-center">
                             <h4 class="card-title">The Training Corps</h4>
                             <p class="card-text">Only the top ten graduates can apply to the Military Police Brigade.</p>
@@ -64,7 +64,7 @@
                 </div>
                 <div class="col-lg-4 mb-5">
                     <div class="card border-0 bg-light shadow-sm pb-2">
-                        <img class="card-img-top mb-2" src="/src/assets/img/courses/sex-ed.png" alt="">
+                        <img class="card-img-top mb-2" src="/img/courses/sex-ed.png" alt="">
                         <div class="card-body text-center">
                             <h4 class="card-title">Basic Practice</h4>
                             <p class="card-text">Helps people gain the skills that are needed to navigate relationships with self,</p>

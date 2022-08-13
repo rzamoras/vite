@@ -8,7 +8,7 @@
             <div class="row pb-3">
                 <div class="col-lg-4 mb-4">
                     <div class="card border-0 shadow-sm mb-2">
-                        <img class="card-img-top mb-2" src="/src/assets/img/blogs/cable_car.jpg" alt="">
+                        <img class="card-img-top mb-2" src="/img/blogs/cable_car.jpg" alt="">
                         <div class="card-body bg-light text-center p-4">
                             <h4 class="">We Now Offer Cable Car Transit</h4>
                             <div class="d-flex justify-content-center mb-3">
@@ -23,7 +23,7 @@
                 </div>
                 <div class="col-lg-4 mb-4">
                     <div class="card border-0 shadow-sm mb-2">
-                        <img class="card-img-top mb-2" src="/src/assets/img/blogs/find_campus.png" alt="">
+                        <img class="card-img-top mb-2" src="/img/blogs/find_campus.png" alt="">
                         <div class="card-body bg-light text-center p-4">
                             <h4 class="">Find a campus near you!</h4>
                             <div class="d-flex justify-content-center mb-3">
@@ -38,7 +38,7 @@
                 </div>
                 <div class="col-lg-4 mb-4">
                     <div class="card border-0 shadow-sm mb-2">
-                        <img class="card-img-top mb-2" src="/src/assets/img/blogs/mandatory_exercise.jpg" alt="">
+                        <img class="card-img-top mb-2" src="/img/blogs/mandatory_exercise.jpg" alt="">
                         <div class="card-body bg-light text-center p-4">
                             <h4 class="">Mandatory Exercise Routine</h4>
                             <div class="d-flex justify-content-center mb-3">
