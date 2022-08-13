@@ -25,7 +25,7 @@
                     <h4 class="fa fa-map-marker-alt text-primary"></h4>
                     <div class="pl-3">
                         <h5 class="text-white">Address</h5>
-                        <p>123 Street, Boulivard, DVO</p>
+                        <p>123 Street, Biringan, Biringan City</p>
                     </div>
                 </div>
                 <div class="d-flex">
